@@ -1,5 +1,5 @@
 ---
-title: "Start"
+title: "Welcome to"
 page: true
 menu:
   main:

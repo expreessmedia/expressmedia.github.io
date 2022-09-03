@@ -1,3 +1,7 @@
+# Hi Thomas, this is a place to do some customization.
+# The lines start with sharp won't be read by hugo. like this line.
+# You and edit the text below, and I believe that you know how to do it (:
+
 baseURL = 'https://expressmedia.github.io/'
 languageCode = 'en-us'
 title = 'Express Media'
@@ -12,15 +16,15 @@ paginate = "10" # Number of posts per page
 
 [Params]
   description = "Welcome to Express Media!" # Site description. Used in meta description
-  copyright = "Express Media 2022" # Footer copyright holder, otherwise will use site title
+  copyright = "Express Media" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
   twitter_cards = true # Enable Twitter Cards if true
-  readmore = false # Show "Read more" button in list if true
+  readmore = true # Show "Read more" button in list if true
   authorbox = true # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
-  indexPager = false # Show pager navigation on index page
+  indexPager = true # Show pager navigation on index page
   post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
   mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
   photosSections = ["photos"] # Specify section pages to show on home page and the "Recent photos" widget
@@ -63,11 +67,11 @@ paginate = "10" # Number of posts per page
   facebook = "username"
   twitter = "username"
   instagram = "username"
-  linkedin = "username"
-  telegram = "username"
-  github = "username"
-  gitlab = "username"
-  bitbucket = "username"
+#  linkedin = "username"
+#  telegram = "username"
+#  github = "username"
+#  gitlab = "username"
+#  bitbucket = "username"
   email = "example@example.com"
 
 # Custom social links

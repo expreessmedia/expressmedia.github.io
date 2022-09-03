@@ -1,0 +1,4 @@
+baseURL = 'https://expressmedia.github.io/'
+languageCode = 'en-us'
+title = 'Express Media'
+theme = "hugo-dpsg"

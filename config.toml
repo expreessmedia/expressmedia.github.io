@@ -2,7 +2,7 @@
 # The lines start with sharp won't be read by hugo. like this line.
 # You and edit the text below, and I believe that you know how to do it (:
 
-baseURL = 'https://expressmedia.github.io/'
+baseURL = 'https://expressmedia.github.io'
 languageCode = 'en-us'
 title = 'Express Media'
 theme = "hugo-dpsg"
